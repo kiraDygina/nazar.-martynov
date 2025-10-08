@@ -1,0 +1,127 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    font-family: "Roboto", sans-serif;
+
+     background: #f5f5f5;
+}
+
+.logo {
+    width: 60px;
+    height: 60px;
+}
+
+.foto {
+    width: 420px;
+    height: 420px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+nav a {
+    color: black;
+    font-weight: 1000;
+    text-decoration: none;
+}
+
+.bar {
+    display: flex;
+    padding: 50px;
+   
+    align-items: center;
+    justify-content: space-evenly;
+ margin: 0 auto;
+}
+
+h1 {
+    font-size: 85px;
+}
+
+.link {
+    padding-right: 50px;
+  justify-content: flex-end;
+  display: flex;
+  margin-right: 200px;
+  
+}
+
+.tavar {margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+h3{text-align: center;
+    text-shadow: -6px 1px 8px rgba(15, 14, 14, 1);
+font-size: 34px;}
+article {
+    text-align: center;
+   height: auto;
+ padding: 50px;
+   background-color: white;
+
+   
+    border-radius: 10px;
+}
+
+
+article p{line-height: 30px;
+font-weight: 900;
+
+}
+
+
+
+.reviews{padding: 40px;
+line-height: 40px;
+font-size: 24px;}
+
+article img {
+    width: 150px;
+    height: 100px;
+}
+
+span {
+    color: red;
+    font-weight: 500;
+}
+
+.zamove {
+    text-decoration: none;
+    background: #ddd;
+    border: 4px double black;
+    padding: 10px;
+    border-radius: 15px;
+    color: black;
+    font-weight: 900;
+    transition: 0.3s;
+}
+
+.zamove:hover {
+    color: red;
+    background: #ccc;
+}
+
+
+.about{border: 14px double black;
+border-radius: 15px;
+display:flex;
+justify-content: space-evenly;
+margin: 0 auto;
+padding: 20px;
+width: 80%;
+}
+
+body{background: #121717;
+background: linear-gradient(0deg,rgba(18, 23, 23, 0.55) 0%, rgba(253, 45, 45, 0.13) 100%);}
+
+
+
+
+
+
